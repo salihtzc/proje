@@ -1,0 +1,17 @@
+body{
+
+background-color:#ede7f6 ;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;}
+
+#main{
+    margin: top 5px; ;
+    margin-left:  200px;
+    margin-right: 200px ;
+
+}
+
+#title{
+    border-width: 20px;
+    border-color: blue;
+}

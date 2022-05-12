@@ -1,0 +1,28 @@
+body{
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.baslik{
+    color: pink;
+    margin-top: 0.5em;
+}
+
+.paragraf{
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+main{
+    height: 20vh ;
+    border: 2px solid purple;
+    color: palevioletred;
+}
+
+
+img{
+    float: left;
+    width: 20vw;
+    height:15vh;
+    margin-right:2em;
+}
+

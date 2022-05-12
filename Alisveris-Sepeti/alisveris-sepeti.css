@@ -1,0 +1,78 @@
+.liste {
+    
+    font: weight 500px; 
+}
+.liste tr :nth-child(2){
+    width: 10em;
+}
+.liste tr :nth-child(1){
+    width: 8em;
+}
+
+
+.even{
+background-color: rgba(223, 217, 217, 0.5);
+}
+
+.odd{
+background-color: rgba(150, 147, 147, 0.5);
+}
+
+.liste tr :nth-child(4){
+width: 6em;
+text-align:right;
+}
+
+.liste tr :nth-child(3){
+text-align:center;
+}
+
+.liste tr :nth-child(5){
+text-align:right;
+width: 6em;
+}
+
+/* .liste tr .simgeler{
+width: 0.5em;    
+} */
+
+.buton1{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border: 0rem;
+    padding: 0.5rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+    }
+
+
+.buton2{
+background-color: rgb(255, 102, 0);
+color: white;
+border: 0rem;
+padding: 0.5rem;
+margin-right:0.5rem;
+}
+
+span{
+color: black;
+}
+
+.baslik{
+background-color: rgba(0, 0, 0, 0.705);
+color: rgba(255, 255, 255);
+}
+
+.baslik :nth-child(1){
+    text-align: left;
+}
+
+.baslik :nth-child(2){
+    text-align: left;
+}
+
+.toplam{
+background-color:rgba(0, 0, 0, 0.658) ;
+color: white;
+}
+
