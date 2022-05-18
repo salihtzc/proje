@@ -1,0 +1,38 @@
+.box{
+    background-color: rgb(102, 102, 102);
+    width: 15vw;
+    height: 20vh;
+}
+
+.menu{
+  background-color: rgba(173, 121, 24, 0.8);  
+  height: 5vh;  
+  width: 12vw;  
+}
+
+.menu p{
+color: white;
+text-align: center;
+padding-top: 1vh;
+
+}
+
+.liste{
+background-color: orange;
+width: 12vw;
+height: 15vh;
+position: absolute;
+top: 10;
+}
+
+.liste li a{
+text-decoration: none;
+color: black;
+}
+
+i{
+position: relative;
+left: 2rem;
+color: black;
+}
+
