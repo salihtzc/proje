@@ -1,0 +1,68 @@
+input{
+    width: 25em;
+    /* position: relative; */
+  
+}
+
+.form{
+    position:relative ;
+    left: 5em;
+    top: 5em;
+}
+
+.form .input-bar{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form .input-bar i{
+    position: absolute;
+    padding: 7px;
+    opacity: 0.7;
+}
+
+.form .input-bar input{
+    width: 100%;
+    /* padding: 5px; */
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.form-contact, .form-shipping {
+    max-width: 450px;
+    /* margin: auto; */
+}
+
+.d-block{
+    /* width: 50%; */
+    margin-bottom: 10px;
+}
+
+.d-block i{
+    position: absolute;
+    padding: 7px;
+    opacity: 0.7;
+}
+
+.d-block input{
+    width: 100%;
+    text-align: center;
+}
+
+.d-block select{
+    width: 8em;
+    text-align: center;
+}
+
+.form-shipping button{
+    margin-left: 22em;
+}
+
+
+.container{
+    background-color: rgba(128, 128, 128, 0.4);
+    position: absolute;
+    top: 5em;
+    right: 2em;
+    width: 10px;
+}

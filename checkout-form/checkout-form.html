@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="./checkout-form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-center">Checkout</h1>
+
+<div class="form">
+ <div class="form-contact">
+    <div class="input-bar">
+     <h3>Contact information</h3><br>
+     <label for="email"></i>Email</label><br> 
+     <i class="fa-solid fa-envelope"></i>  
+     <input name="email" type="email" id="email" placeholder="Enter your email..">
+    </div><br>
+
+    <div class="input-bar">
+     <label for="phone">Phone</label><br>
+     <i class="fa-solid fa-phone"></i>
+     <input name="phone" type="tel" id="phone" placeholder="Enter your phone..">
+    </div><br>
+ </div><br><br>
+ <div class="form-shipping">
+     <div class="input-bar">
+     <h3>Shipping Address</h3><br>
+     <label for="name">Full Name</label><br>
+     <i class="fa-solid fa-user"></i>
+     <input type="text" id="name" name="isim" placeholder="Enter your Full name..">
+     </div><br>
+
+     <div class="input-bar">
+     <label for="address">Address</label><br>   
+     <i class="fa-solid fa-house-chimney"></i>
+     <input type="text" id="address" name="address" placeholder="Enter your address..">
+     </div><br>
+
+     <div class="input-bar">
+     <label for="city">City</label><br>
+     <i class="fa-solid fa-city"></i>
+     <input type="text" id="city" name="sehir" placeholder="Enter your city">
+     </div><br>
+
+     <div class="d-flex py-3" >
+      <div class="d-block ">
+        <label for="ulke">Country</label><br>    
+        <i class="fa-solid fa-earth-europe"></i>
+        <select style="height:30px; " name="country" id="ulke">
+            <option value="turkey">Turkey</option>
+            <option value="belgium">Belgium</option>
+            <option value="netherlands">Netherlands</option>
+        </select>
+      </div>
+      <div class="d-block ms-4"  >
+        <label for="post">Post Code</label><br>
+        <i class="fa-solid fa-envelopes-bulk"></i>
+        <input style="width:15em;" type="tel" minlength="0" maxlength="6" id="post" placeholder="Enter your postal code..">
+      </div>
+     </div><br>
+
+     <div>
+      <input style="width:2em;" type="checkbox" id="info" name="info">
+      <label for="info">See the information next time</label>
+     </div><br><br>
+
+     <button  class="btn text-light bg-warning">Continue</button>
+ </div>
+  
+</div>
+
+
+
+
+<!--* GRI ARKAPLANLI URUN VE FIYAT KISMI -->
+
+<div class="container w-x-35 h-75">
+ <div>
+   <img class="foto" src="./images/photo1.png" alt="">
+   <h3 class="display-flex">Vintage Backbag</h3>
+   <p class="border " >$54.99</p>   
+ </div>
+
+
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
